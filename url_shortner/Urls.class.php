@@ -5,7 +5,7 @@ class Urls
 
 	function __construct(){
 		if(is_null(self::$_connection)){
-		    self::$_connection = new mysqli("localhost","root","admin","db_short_urls");
+		    self::$_connection = new mysqli("localhost","<phpmyadmin-uname>","<phpmyadmin-pswd>","db_short_urls");
 		}
 	}
 
