@@ -45,7 +45,7 @@ static $http = array (
 );
 /*echo 'url: '.$url;
 die;*/
-//header('Location:http://'.$url, true, 301); 
+//header('Location:http://'.$url, true, 301); //use these if below header function didn't work
 header("Location:http://$url"); 
 exit();
 }
